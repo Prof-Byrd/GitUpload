@@ -15,6 +15,7 @@ function App() {
   };
   return (
     <div className="App">
+      <h1>Github Upload</h1>
       <h1>Counter: {count}</h1>
       <Button label="Increment" onClick={handleIncrement} />
       <Button label="Decrement" onClick={handleDecrement} />
